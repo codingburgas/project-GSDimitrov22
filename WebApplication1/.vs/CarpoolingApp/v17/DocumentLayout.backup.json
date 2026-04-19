@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "C:\\Users\\ivans\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Project ALEKS\\project-GSDimitrov22\\WebApplication1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{60AE8FCE-2F02-43F3-8D70-2435B6DE0F4D}|WebApplication1\\CarpoolingApp.csproj|c:\\users\\ivans\\onedrive\\\u0440\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\project aleks\\project-gsdimitrov22\\webapplication1\\webapplication1\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60AE8FCE-2F02-43F3-8D70-2435B6DE0F4D}|WebApplication1\\CarpoolingApp.csproj|solutionrelative:webapplication1\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60AE8FCE-2F02-43F3-8D70-2435B6DE0F4D}|WebApplication1\\CarpoolingApp.csproj|c:\\users\\ivans\\onedrive\\\u0440\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\project aleks\\project-gsdimitrov22\\webapplication1\\webapplication1\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60AE8FCE-2F02-43F3-8D70-2435B6DE0F4D}|WebApplication1\\CarpoolingApp.csproj|solutionrelative:webapplication1\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60AE8FCE-2F02-43F3-8D70-2435B6DE0F4D}|WebApplication1\\CarpoolingApp.csproj|c:\\users\\ivans\\onedrive\\\u0440\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\project aleks\\project-gsdimitrov22\\webapplication1\\webapplication1\\models\\trip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60AE8FCE-2F02-43F3-8D70-2435B6DE0F4D}|WebApplication1\\CarpoolingApp.csproj|solutionrelative:webapplication1\\models\\trip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60AE8FCE-2F02-43F3-8D70-2435B6DE0F4D}|WebApplication1\\CarpoolingApp.csproj|c:\\users\\ivans\\onedrive\\\u0440\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\project aleks\\project-gsdimitrov22\\webapplication1\\webapplication1\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60AE8FCE-2F02-43F3-8D70-2435B6DE0F4D}|WebApplication1\\CarpoolingApp.csproj|solutionrelative:webapplication1\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{60AE8FCE-2F02-43F3-8D70-2435B6DE0F4D}|WebApplication1\\CarpoolingApp.csproj|c:\\users\\ivans\\onedrive\\\u0440\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\project aleks\\project-gsdimitrov22\\webapplication1\\webapplication1\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{60AE8FCE-2F02-43F3-8D70-2435B6DE0F4D}|WebApplication1\\CarpoolingApp.csproj|solutionrelative:webapplication1\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -37,22 +53,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{60AE8FCE-2F02-43F3-8D70-2435B6DE0F4D}|WebApplication1\\CarpoolingApp.csproj|c:\\users\\ivans\\onedrive\\\u0440\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\project aleks\\project-gsdimitrov22\\webapplication1\\webapplication1\\views\\trip\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{60AE8FCE-2F02-43F3-8D70-2435B6DE0F4D}|WebApplication1\\CarpoolingApp.csproj|solutionrelative:webapplication1\\views\\trip\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{60AE8FCE-2F02-43F3-8D70-2435B6DE0F4D}|WebApplication1\\CarpoolingApp.csproj|c:\\users\\ivans\\onedrive\\\u0440\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\project aleks\\project-gsdimitrov22\\webapplication1\\webapplication1\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60AE8FCE-2F02-43F3-8D70-2435B6DE0F4D}|WebApplication1\\CarpoolingApp.csproj|solutionrelative:webapplication1\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{60AE8FCE-2F02-43F3-8D70-2435B6DE0F4D}|WebApplication1\\CarpoolingApp.csproj|c:\\users\\ivans\\onedrive\\\u0440\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\project aleks\\project-gsdimitrov22\\webapplication1\\webapplication1\\models\\trip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60AE8FCE-2F02-43F3-8D70-2435B6DE0F4D}|WebApplication1\\CarpoolingApp.csproj|solutionrelative:webapplication1\\models\\trip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{60AE8FCE-2F02-43F3-8D70-2435B6DE0F4D}|WebApplication1\\CarpoolingApp.csproj|c:\\users\\ivans\\onedrive\\\u0440\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\project aleks\\project-gsdimitrov22\\webapplication1\\webapplication1\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60AE8FCE-2F02-43F3-8D70-2435B6DE0F4D}|WebApplication1\\CarpoolingApp.csproj|solutionrelative:webapplication1\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{60AE8FCE-2F02-43F3-8D70-2435B6DE0F4D}|WebApplication1\\CarpoolingApp.csproj|c:\\users\\ivans\\onedrive\\\u0440\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\project aleks\\project-gsdimitrov22\\webapplication1\\webapplication1\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60AE8FCE-2F02-43F3-8D70-2435B6DE0F4D}|WebApplication1\\CarpoolingApp.csproj|solutionrelative:webapplication1\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{60AE8FCE-2F02-43F3-8D70-2435B6DE0F4D}|WebApplication1\\CarpoolingApp.csproj|c:\\users\\ivans\\onedrive\\\u0440\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\project aleks\\project-gsdimitrov22\\webapplication1\\webapplication1\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -90,7 +90,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 14,
           "Children": [
             {
               "$type": "Bookmark",
@@ -98,24 +98,24 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "_ValidationScriptsPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\ivans\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Project ALEKS\\project-GSDimitrov22\\WebApplication1\\WebApplication1\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "RelativeDocumentMoniker": "WebApplication1\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "ToolTip": "C:\\Users\\ivans\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Project ALEKS\\project-GSDimitrov22\\WebApplication1\\WebApplication1\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "RelativeToolTip": "WebApplication1\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-04-19T03:37:56.737Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\ivans\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Project ALEKS\\project-GSDimitrov22\\WebApplication1\\WebApplication1\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "WebApplication1\\Views\\Shared\\_Layout.cshtml",
@@ -123,12 +123,11 @@
               "RelativeToolTip": "WebApplication1\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-19T03:37:55.84Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-19T03:37:55.84Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "Index.css",
               "DocumentMoniker": "C:\\Users\\ivans\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Project ALEKS\\project-GSDimitrov22\\WebApplication1\\WebApplication1\\Views\\Admin\\Index.css",
               "RelativeDocumentMoniker": "WebApplication1\\Views\\Admin\\Index.css",
@@ -136,12 +135,11 @@
               "RelativeToolTip": "WebApplication1\\Views\\Admin\\Index.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-04-19T03:36:05.65Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-19T03:36:05.65Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "Register.css",
               "DocumentMoniker": "C:\\Users\\ivans\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Project ALEKS\\project-GSDimitrov22\\WebApplication1\\WebApplication1\\Views\\Account\\Register.css",
               "RelativeDocumentMoniker": "WebApplication1\\Views\\Account\\Register.css",
@@ -149,12 +147,11 @@
               "RelativeToolTip": "WebApplication1\\Views\\Account\\Register.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-04-19T03:35:47.583Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-19T03:35:47.583Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "Login.css",
               "DocumentMoniker": "C:\\Users\\ivans\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Project ALEKS\\project-GSDimitrov22\\WebApplication1\\WebApplication1\\Views\\Account\\Login.css",
               "RelativeDocumentMoniker": "WebApplication1\\Views\\Account\\Login.css",
@@ -162,12 +159,11 @@
               "RelativeToolTip": "WebApplication1\\Views\\Account\\Login.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-04-19T03:35:30.115Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-19T03:35:30.115Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "Create.css",
               "DocumentMoniker": "C:\\Users\\ivans\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Project ALEKS\\project-GSDimitrov22\\WebApplication1\\WebApplication1\\Views\\Booking\\Create.css",
               "RelativeDocumentMoniker": "WebApplication1\\Views\\Booking\\Create.css",
@@ -175,12 +171,11 @@
               "RelativeToolTip": "WebApplication1\\Views\\Booking\\Create.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-04-19T03:35:15.382Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-19T03:35:15.382Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "Details.css",
               "DocumentMoniker": "C:\\Users\\ivans\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Project ALEKS\\project-GSDimitrov22\\WebApplication1\\WebApplication1\\Views\\Trip\\Details.css",
               "RelativeDocumentMoniker": "WebApplication1\\Views\\Trip\\Details.css",
@@ -188,12 +183,11 @@
               "RelativeToolTip": "WebApplication1\\Views\\Trip\\Details.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-04-19T03:34:53.383Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-19T03:34:53.383Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "Create.css",
               "DocumentMoniker": "C:\\Users\\ivans\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Project ALEKS\\project-GSDimitrov22\\WebApplication1\\WebApplication1\\Views\\Trip\\Create.css",
               "RelativeDocumentMoniker": "WebApplication1\\Views\\Trip\\Create.css",
@@ -201,12 +195,11 @@
               "RelativeToolTip": "WebApplication1\\Views\\Trip\\Create.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-04-19T03:34:22.669Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-19T03:34:22.669Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "Index.css",
               "DocumentMoniker": "C:\\Users\\ivans\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Project ALEKS\\project-GSDimitrov22\\WebApplication1\\WebApplication1\\Views\\Trip\\Index.css",
               "RelativeDocumentMoniker": "WebApplication1\\Views\\Trip\\Index.css",
@@ -214,57 +207,56 @@
               "RelativeToolTip": "WebApplication1\\Views\\Trip\\Index.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-04-19T03:34:04.008Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-19T03:34:04.008Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 1,
               "Title": "Booking.cs",
               "DocumentMoniker": "C:\\Users\\ivans\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Project ALEKS\\project-GSDimitrov22\\WebApplication1\\WebApplication1\\Models\\Booking.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Models\\Booking.cs",
               "ToolTip": "C:\\Users\\ivans\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Project ALEKS\\project-GSDimitrov22\\WebApplication1\\WebApplication1\\Models\\Booking.cs",
               "RelativeToolTip": "WebApplication1\\Models\\Booking.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-18T08:58:24.274Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 2,
               "Title": "Trip.cs",
               "DocumentMoniker": "C:\\Users\\ivans\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Project ALEKS\\project-GSDimitrov22\\WebApplication1\\WebApplication1\\Models\\Trip.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Models\\Trip.cs",
               "ToolTip": "C:\\Users\\ivans\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Project ALEKS\\project-GSDimitrov22\\WebApplication1\\WebApplication1\\Models\\Trip.cs",
               "RelativeToolTip": "WebApplication1\\Models\\Trip.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-18T08:58:09.74Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 3,
               "Title": "ApplicationUser.cs",
               "DocumentMoniker": "C:\\Users\\ivans\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Project ALEKS\\project-GSDimitrov22\\WebApplication1\\WebApplication1\\Models\\ApplicationUser.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Models\\ApplicationUser.cs",
               "ToolTip": "C:\\Users\\ivans\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Project ALEKS\\project-GSDimitrov22\\WebApplication1\\WebApplication1\\Models\\ApplicationUser.cs",
               "RelativeToolTip": "WebApplication1\\Models\\ApplicationUser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-18T08:57:46.087Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 0,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\ivans\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Project ALEKS\\project-GSDimitrov22\\WebApplication1\\WebApplication1\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Data\\ApplicationDbContext.cs",
               "ToolTip": "C:\\Users\\ivans\\OneDrive\\\u0420\u0430\u0431\u043E\u0442\u0435\u043D \u043F\u043B\u043E\u0442\\Project ALEKS\\project-GSDimitrov22\\WebApplication1\\WebApplication1\\Data\\ApplicationDbContext.cs",
               "RelativeToolTip": "WebApplication1\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-18T08:45:55.073Z",
               "EditorCaption": ""
@@ -279,8 +271,7 @@
               "RelativeToolTip": "WebApplication1\\Controllers\\AccountController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-17T14:14:25.88Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-17T14:14:25.88Z"
             },
             {
               "$type": "Document",
@@ -353,6 +344,10 @@
               "ViewState": "AgIAAAMAAAAAAAAAAAAqwBsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-07T23:41:35.815Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }
