@@ -29,3 +29,4 @@ C:\Users\ivans\OneDrive\Работен плот\Project ALEKS\project-GSDimitrov
 C:\Users\ivans\OneDrive\Работен плот\Project ALEKS\project-GSDimitrov22\WebApplication1\WebApplication1\obj\Debug\net8.0\CarpoolingApp.pdb
 C:\Users\ivans\OneDrive\Работен плот\Project ALEKS\project-GSDimitrov22\WebApplication1\WebApplication1\obj\Debug\net8.0\CarpoolingApp.genruntimeconfig.cache
 C:\Users\ivans\OneDrive\Работен плот\Project ALEKS\project-GSDimitrov22\WebApplication1\WebApplication1\obj\Debug\net8.0\ref\CarpoolingApp.dll
+C:\Users\ivans\OneDrive\Работен плот\Project ALEKS\project-GSDimitrov22\WebApplication1\WebApplication1\obj\Debug\net8.0\rpswa.dswa.cache.json
