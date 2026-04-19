@@ -1,0 +1,28 @@
+﻿@model CarpoolingApp.Models.Trip
+
+@{
+    ViewData["Title"] = "Trip Details";
+}
+
+<h2>Trip Details</h2>
+
+<div class="card mb-3">
+    <div class="card-body">
+        <h4>@Model.StartLocation → @Model.EndLocation</h4>
+        <p>Date: @Model.Date.ToShortDateString()</p>
+        <p>Time: @Model.Time</p>
+        <p>Driver: @Model.Driver.FullName</p>
+        <p>Remaining Seats: @ViewBag.RemainingSeats</p>
+    </div>
+</div>
+
+@if (User.Identity.IsAuthenticated)
+{
+    <a class="btn btn-primary" asp-controller="Booking" asp-action="Create" asp-route-tripId="@Model.Id">
+        Book Seats
+    </a>
+}
+else
+{
+    <p class="text-muted">Login to book seats.</p>
+}

@@ -24,14 +24,30 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ivans/OneDrive/Работен плот/Project ALEKS/project-GSDimitrov22/WebApplication1/WebApplication1/Views/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
+[C:/Users/ivans/OneDrive/Работен плот/Project ALEKS/project-GSDimitrov22/WebApplication1/WebApplication1/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-vdshr9a3ww
 
-[C:/Users/ivans/OneDrive/Работен плот/Project ALEKS/project-GSDimitrov22/WebApplication1/WebApplication1/Views/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
+[C:/Users/ivans/OneDrive/Работен плот/Project ALEKS/project-GSDimitrov22/WebApplication1/WebApplication1/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-0gispfmax7
+
+[C:/Users/ivans/OneDrive/Работен плот/Project ALEKS/project-GSDimitrov22/WebApplication1/WebApplication1/Views/Booking/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-lwa4cs7iw7
 
 [C:/Users/ivans/OneDrive/Работен плот/Project ALEKS/project-GSDimitrov22/WebApplication1/WebApplication1/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-gcrs991ade
+
+[C:/Users/ivans/OneDrive/Работен плот/Project ALEKS/project-GSDimitrov22/WebApplication1/WebApplication1/Views/Trip/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJpcFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-enllubilaq
+
+[C:/Users/ivans/OneDrive/Работен плот/Project ALEKS/project-GSDimitrov22/WebApplication1/WebApplication1/Views/Trip/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJpcFxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = b-lsw6hjfywt
+
+[C:/Users/ivans/OneDrive/Работен плот/Project ALEKS/project-GSDimitrov22/WebApplication1/WebApplication1/Views/Trip/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJpcFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-vimg7yfwy2

@@ -1,0 +1,25 @@
+﻿@model CarpoolingApp.Models.Booking
+
+@{
+    ViewData["Title"] = "Book Trip";
+}
+
+<h2>Book Seats</h2>
+
+<p>Remaining Seats: @ViewBag.RemainingSeats</p>
+
+<form method="post">
+    <input type="hidden" asp-for="TripId" />
+
+    <div class="mb-3">
+        <label asp-for="SeatsBooked" class="form-label"></label>
+        <input asp-for="SeatsBooked" class="form-control" />
+        <span asp-validation-for="SeatsBooked" class="text-danger"></span>
+    </div>
+
+    <button class="btn btn-success">Book</button>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

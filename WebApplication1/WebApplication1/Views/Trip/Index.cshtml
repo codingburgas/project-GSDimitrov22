@@ -1,0 +1,51 @@
+﻿@model IEnumerable<CarpoolingApp.Models.Trip>
+
+@{
+    ViewData["Title"] = "Trips";
+}
+
+<h2>Available Trips</h2>
+
+<form method="get" class="row g-3 mb-4">
+    <div class="col-md-3">
+        <label class="form-label">Date</label>
+        <input type="date" name="date" class="form-control" />
+    </div>
+
+    <div class="col-md-3">
+        <label class="form-label">Destination</label>
+        <input type="text" name="destination" class="form-control" placeholder="City" />
+    </div>
+
+    <div class="col-md-3 align-self-end">
+        <button class="btn btn-primary">Search</button>
+    </div>
+</form>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>From</th>
+            <th>To</th>
+            <th>Date</th>
+            <th>Time</th>
+            <th>Driver</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var trip in Model)
+        {
+            <tr>
+                <td>@trip.StartLocation</td>
+                <td>@trip.EndLocation</td>
+                <td>@trip.Date.ToShortDateString()</td>
+                <td>@trip.Time</td>
+                <td>@trip.Driver.FullName</td>
+                <td>
+                    <a class="btn btn-sm btn-info" asp-action="Details" asp-route-id="@trip.Id">Details</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

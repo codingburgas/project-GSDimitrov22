@@ -1,12 +1,62 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc;
+using CarpoolingApp.Models;
 
 namespace CarpoolingApp.Controllers
 {
     public class AccountController : Controller
     {
-        public IActionResult Index()
+        private readonly UserManager<ApplicationUser> _userManager;
+        private readonly SignInManager<ApplicationUser> _signInManager;
+
+        public AccountController(
+            UserManager<ApplicationUser> userManager,
+            SignInManager<ApplicationUser> signInManager)
         {
+            _userManager = userManager;
+            _signInManager = signInManager;
+        }
+
+        public IActionResult Register() => View();
+
+        [HttpPost]
+        public async Task<IActionResult> Register(string fullName, string email, string password)
+        {
+            var user = new ApplicationUser { UserName = email, Email = email, FullName = fullName };
+
+            var result = await _userManager.CreateAsync(user, password);
+
+            if (result.Succeeded)
+            {
+                await _userManager.AddToRoleAsync(user, "User");
+                await _signInManager.SignInAsync(user, false);
+                return RedirectToAction("Index", "Trip");
+            }
+
+            foreach (var error in result.Errors)
+                ModelState.AddModelError("", error.Description);
+
             return View();
+        }
+
+        public IActionResult Login() => View();
+
+        [HttpPost]
+        public async Task<IActionResult> Login(string email, string password)
+        {
+            var result = await _signInManager.PasswordSignInAsync(email, password, false, false);
+
+            if (result.Succeeded)
+                return RedirectToAction("Index", "Trip");
+
+            ModelState.AddModelError("", "Invalid login.");
+            return View();
+        }
+
+        public async Task<IActionResult> Logout()
+        {
+            await _signInManager.SignOutAsync();
+            return RedirectToAction("Index", "Trip");
         }
     }
 }
