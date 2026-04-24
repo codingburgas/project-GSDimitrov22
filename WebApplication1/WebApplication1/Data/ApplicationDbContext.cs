@@ -14,5 +14,16 @@ namespace CarpoolingApp.Data
 
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
             : base(options) { }
+        protected override void OnModelCreating(ModelBuilder builder)
+        {
+            base.OnModelCreating(builder);
+
+            builder.Entity<Booking>()
+                .HasOne(b => b.Trip)
+                .WithMany(t => t.Bookings)
+                .HasForeignKey(b => b.TripId)
+                .OnDelete(DeleteBehavior.Restrict);
+        }
+
     }
 }
