@@ -17,6 +17,7 @@ namespace CarpoolingApp.Controllers
             _context = context;
         }
 
+        // Shows booking form for a trip
         public async Task<IActionResult> Create(int tripId)
         {
             var trip = await _context.Trips
@@ -26,12 +27,14 @@ namespace CarpoolingApp.Controllers
             if (trip == null)
                 return NotFound();
 
+            // Calculate remaining seats
             int booked = trip.Bookings.Sum(b => b.SeatsBooked);
             ViewBag.RemainingSeats = trip.AvailableSeats - booked;
 
             return View(new Booking { TripId = tripId });
         }
 
+        // Processes booking submission
         [HttpPost]
         public async Task<IActionResult> Create(Booking model)
         {
@@ -42,6 +45,7 @@ namespace CarpoolingApp.Controllers
             if (trip == null)
                 return NotFound();
 
+            // Check seat availability
             int remaining = trip.AvailableSeats - trip.Bookings.Sum(b => b.SeatsBooked);
 
             if (model.SeatsBooked > remaining)
@@ -50,6 +54,7 @@ namespace CarpoolingApp.Controllers
                 return View(model);
             }
 
+            // Assign current user as passenger
             model.PassengerId = User.FindFirstValue(ClaimTypes.NameIdentifier)!;
 
             _context.Bookings.Add(model);
@@ -59,3 +64,4 @@ namespace CarpoolingApp.Controllers
         }
     }
 }
+``

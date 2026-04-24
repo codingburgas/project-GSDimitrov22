@@ -18,12 +18,15 @@ namespace CarpoolingApp.Models
         [Required]
         public TimeSpan Time { get; set; }
 
+        // Total seats offered by the driver
         [Required]
         public int AvailableSeats { get; set; }
 
+        // Driver of the trip
         public string DriverId { get; set; } = "";
         public ApplicationUser Driver { get; set; } = null!;
 
+        // Bookings for this trip
         public List<Booking> Bookings { get; set; } = new();
     }
 }

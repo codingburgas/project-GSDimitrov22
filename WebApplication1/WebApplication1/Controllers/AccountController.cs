@@ -17,19 +17,27 @@ namespace CarpoolingApp.Controllers
             _signInManager = signInManager;
         }
 
+        // Shows registration form
         public IActionResult Register() => View();
 
         [HttpPost]
         public async Task<IActionResult> Register(string fullName, string email, string password)
         {
-            var user = new ApplicationUser { UserName = email, Email = email, FullName = fullName };
+            var user = new ApplicationUser
+            {
+                UserName = email,
+                Email = email,
+                FullName = fullName
+            };
 
             var result = await _userManager.CreateAsync(user, password);
 
             if (result.Succeeded)
             {
+                // Assign default role and sign in
                 await _userManager.AddToRoleAsync(user, "User");
                 await _signInManager.SignInAsync(user, false);
+
                 return RedirectToAction("Index", "Trip");
             }
 
@@ -39,12 +47,14 @@ namespace CarpoolingApp.Controllers
             return View();
         }
 
+        // Shows login form
         public IActionResult Login() => View();
 
         [HttpPost]
         public async Task<IActionResult> Login(string email, string password)
         {
-            var result = await _signInManager.PasswordSignInAsync(email, password, false, false);
+            var result = await _signInManager.PasswordSignInAsync(
+                email, password, false, false);
 
             if (result.Succeeded)
                 return RedirectToAction("Index", "Trip");
@@ -53,6 +63,7 @@ namespace CarpoolingApp.Controllers
             return View();
         }
 
+        // Logs out the current user
         public async Task<IActionResult> Logout()
         {
             await _signInManager.SignOutAsync();

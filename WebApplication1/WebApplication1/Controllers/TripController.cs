@@ -16,10 +16,13 @@ namespace CarpoolingApp.Controllers
             _context = context;
         }
 
+        // Lists trips with optional filters
         [AllowAnonymous]
         public async Task<IActionResult> Index(DateTime? date, string? destination)
         {
-            var trips = _context.Trips.Include(t => t.Driver).AsQueryable();
+            var trips = _context.Trips
+                .Include(t => t.Driver)
+                .AsQueryable();
 
             if (date.HasValue)
                 trips = trips.Where(t => t.Date == date.Value.Date);
@@ -30,9 +33,11 @@ namespace CarpoolingApp.Controllers
             return View(await trips.ToListAsync());
         }
 
+        // Shows create form
         [Authorize]
         public IActionResult Create() => View();
 
+        // Creates a new trip
         [Authorize]
         [HttpPost]
         public async Task<IActionResult> Create(Trip model)
@@ -40,6 +45,7 @@ namespace CarpoolingApp.Controllers
             if (!ModelState.IsValid)
                 return View(model);
 
+            // Set logged-in user as driver
             model.DriverId = User.FindFirstValue(ClaimTypes.NameIdentifier)!;
 
             _context.Trips.Add(model);
@@ -48,6 +54,7 @@ namespace CarpoolingApp.Controllers
             return RedirectToAction("Index");
         }
 
+        // Shows trip details
         [AllowAnonymous]
         public async Task<IActionResult> Details(int id)
         {
@@ -59,6 +66,7 @@ namespace CarpoolingApp.Controllers
             if (trip == null)
                 return NotFound();
 
+            // Calculate remaining seats
             int booked = trip.Bookings.Sum(b => b.SeatsBooked);
             ViewBag.RemainingSeats = trip.AvailableSeats - booked;
 

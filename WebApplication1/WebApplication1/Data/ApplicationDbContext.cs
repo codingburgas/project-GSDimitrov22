@@ -1,13 +1,15 @@
 ﻿using CarpoolingApp.Models;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using System.Collections.Generic;
 
 namespace CarpoolingApp.Data
 {
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
+        // Trips table
         public DbSet<Trip> Trips { get; set; }
+
+        // Bookings table
         public DbSet<Booking> Bookings { get; set; }
 
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
