@@ -42,8 +42,20 @@ namespace CarpoolingApp.Controllers
         [HttpPost]
         public async Task<IActionResult> Create(Trip model)
         {
+            // 🔥 DEBUG: Print ModelState errors
             if (!ModelState.IsValid)
+            {
+                Console.WriteLine("MODELSTATE INVALID:");
+                foreach (var entry in ModelState)
+                {
+                    foreach (var error in entry.Value.Errors)
+                    {
+                        Console.WriteLine($"{entry.Key}: {error.ErrorMessage}");
+                    }
+                }
+
                 return View(model);
+            }
 
             // Set logged-in user as driver
             model.DriverId = User.FindFirstValue(ClaimTypes.NameIdentifier)!;
